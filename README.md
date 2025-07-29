@@ -9,7 +9,6 @@ This repository contains automated tests for both UI (Cypress) and API (Postman)
 - [Running Tests](#running-tests)
 - [Test Data](#test-data)
 - [Reporting](#reporting)
-- [Maintenance](#maintenance)
 
 ## Test Structure
 
@@ -46,6 +45,18 @@ npm install
 - Run Postman on you PC
 - Import `tech_test.postman_collection.json` collection
 - run collection
+
+
+## Test Data
+### Cypress
+- url: https://dmsfrontenduat.z6.web.core.windows.net/
+- username: 07035528282
+- password: 07035528282
+
+### Postman
+- url: https://dmsfrontenduat.z6.web.core.windows.net/
+- username: 07035528282
+- password: 07035528282
 
 ## Reporting
 
