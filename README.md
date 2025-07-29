@@ -31,8 +31,8 @@ This repository contains automated tests for both UI (Cypress) and API (Postman)
 
 ## Installation
 ```bash
-git clone <repository-url>
-cd <project-directory>
+git clone https://github.com/BeccaAmodu/technical_test_remwaste.git
+cd technical_test_remwaste
 npm install
 ```
 
