@@ -62,7 +62,6 @@ npm install
 
 ### Cypress:
 - Screenshots saved in /cypress/screenshots
-- Videos saved in /cypress/videos (when running headless)
 
 ### Postman:
 - Detailed test results in Postman console
