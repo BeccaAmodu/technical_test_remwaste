@@ -18,15 +18,10 @@ This repository contains automated tests for both UI (Cypress) and API (Postman)
 | `login.cy.js`      | Tests login functionality with valid/invalid credentials                    |
 | `customer.cy.js`   | Tests full customer CRUD operations with randomized test data               |
 
-### Postman API Tests
-| Collection File                          | Description                                                                 |
-|------------------------------------------|-----------------------------------------------------------------------------|
-| `tech_test.postman_collection.json`      | Tests REST API endpoints for posts resource with positive/negative scenarios |
 
 ## Prerequisites
 - Node.js v16+
 - Cypress v10+
-- Postman (for API tests)
 
 
 ## Installation
@@ -41,30 +36,12 @@ npm install
 - npx cypress run --spec "cypress/e2e/login.cy.js" # To run specific test
 - npx cypress open                                 # To run all test
 
-### POSTMAN Tests
-- Run Postman on you PC
-- Import `tech_test.postman_collection.json` collection
-- run collection
-
-
-## Test Data
-### Cypress
+## Test Data 
 - url: https://dmsfrontenduat.z6.web.core.windows.net/
 - username: 07035528282
 - password: 07035528282
-
-### Postman
-- url: https://dmsfrontenduat.z6.web.core.windows.net/
-- username: 07035528282
-- password: 07035528282
-
+ 
 ## Reporting
 
 ### Cypress:
 - Screenshots saved in /cypress/screenshots
-
-### Postman:
-- Detailed test results in Postman console
-- Response validation for each request
-
-
